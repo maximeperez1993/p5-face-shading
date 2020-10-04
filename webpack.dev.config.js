@@ -8,16 +8,9 @@ module.exports = {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
-    optimization: {
-        minimize: false,
-        splitChunks: {
-            chunks: 'all',
-        }
-    },
     plugins: [
         new CopyWebpackPlugin([{
-            from: 'src/index.html', to: './index.html',
-            from: './assets', to: './assets'
+            from: 'src/index.html', to: './index.html'
         }]),
         new WebpackCleanPlugin({
             path: './dist'
