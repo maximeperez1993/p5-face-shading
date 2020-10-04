@@ -11,12 +11,13 @@
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
     "babel-loader": "^8.0.5",
+    "copy-webpack-plugin": "^5.0.2",
     "html-loader": "^0.5.5",
+    "terser-webpack-plugin": "^4.2.2",
     "webpack": "^4.29.6",
     "webpack-clean-plugin": "^0.2.3",
     "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.2.1",
-    "copy-webpack-plugin": "^5.0.2"
+    "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
     "p5": "0.7.3"
